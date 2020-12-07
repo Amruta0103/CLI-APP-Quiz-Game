@@ -11,7 +11,7 @@ if (start.toUpperCase()==="Y"){
 
   console.log(chalk.bold.bgGreenBright(chalk.bold.black("Hi "+userName+"!! \n")));                                                                                                    //welcoming user
 
-  console.log(chalk.bgWhiteBright(chalk.bold.black("NOTE: \nTo answer the following questions, type in the option number corresponding to the choice you make : 1/2/3/4 \n")));       //rules to play
+  console.log(chalk.bgWhiteBright(chalk.bold.black("NOTE: \nTo answer the following questions, \ntype in the option number corresponding to the choice you make : \n1/2/3/4 \n")));       //rules to play
   console.log(chalk.bgWhiteBright(chalk.underline.bold.black("The marking scheme:- \nRight answer:- +1 mark \nWrong answer:- -1 mark \n")));                                          //marking scheme
 
 var questions=[                                                                                                                                                                       //list of questions with answers
